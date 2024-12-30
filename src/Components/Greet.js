@@ -1,10 +1,20 @@
+// functional components using props
 import React from 'react'
 
 // function Greet() {
 //     return <h1>Hello Joshua Cheng</h1>
 // }
 
-const Greet = () => <h1> Hello joshua cheng</h1>
+const Greet = (props) => {
+    // also note that props is an argument that cannot be changed throughout the whole function
+    console.log(props);
+    return (
+        <div>
+            <h1> Hello {props.firstName} {props.lastName}.</h1> 
+            {props.children} 
+        </div>
+    )
+}
 export default Greet;
 
 // this program has a functional components designed to display a simple message

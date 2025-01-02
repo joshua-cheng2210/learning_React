@@ -2,7 +2,7 @@
 import React, {Component} from "react";
 
 class Welcome extends Component {
-    render() { return (
+    render(props) { return (
         <h1> from the class method {this.props.firstName} {this.props.lastName} 
         {this.props.children}</h1>
     );}

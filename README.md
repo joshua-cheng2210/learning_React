@@ -1,6 +1,10 @@
 # learning_React
 trying to learn React
 
+# notes
+this is just me trying to get some rough basics about React
+- I was just watching some tutorials (https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
